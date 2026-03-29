@@ -1,29 +1,59 @@
+<!-- HTML is made up of elements-->
+
 <!DOCTYPE html>
 <html>
+    <!--ELEMENTS are just boxes that we place content in-->
+    <!--Elements are made up of tags and attributes-->
+    <!--Tags look like <sometag> CONTENT </sometag>-->
+    <!--overall structure of HTML elements are: <sometage> CONTENT FOR THAT ELEMENT</sometag>-->
+    <!--attributes are descriptions of elements that provide more context or provide customization to an element-->
     <head>
-        <title>Skeleton Webpage/ Introduction</title>
+        <!--HEAD element provides metadata-->
+
+        <title>My first page!</title>
+
     </head>
 
-    <body style="background-color: gray;">
-        <section class="Hello">
-            <h1 id="title" style="color: purple; font-family: Times New Roman; text-align: center;">Hello, welcome to my webpage</h1>
-            <h2 id="intro" style="color: blue; font-family: Arial;">My name is Brian Wong.</h3>
-            <h3 style="color: violet; font-family: Arial;">I'm currently in the major of Media Arts and Sciences (Games and Interactive Media).</h3>
-            <h3 style="color: cyan; font-family: Arial;">This page is to share a few things about me.</h3>
-        </section>
-        <section class="AboutMe">
-            <h3 style="color: turquoise; font-family: Arial;">These are some of my hobbies.</h3>
-            <ul id="Hobbies" style="color: aqua; font-family: serif; font-size: 20px;">
-                <li>Playing videogames</li>
-                <li>Drawing</li>
-                <li>Eating good food</li>
+    <body>
+        <!--the body renders everything that we see in the viewport OR we interact with-->
+
+        <!--the style attribute styles an element-->
+
+        <h1>Hi there! </h1>
+        <p style="background-color: beige; font-size: 48px;">
+            Lorem ipsum dolar i wanna be the very best earth fire wind water air the nations lived in harmony before the fire nation attacked
+        </p>
+        
+        <p class="ships" style="font-family: 'Arial'">
+            <h2 id="h2HeaderExample">
+                Boxes within Boxes Example
+            </h2>
+
+            I don't feel like writing all of that, and I don't have to which is great. I've been eating cereal while writing this webpage
+
+            <h3>
+                Mind Blanked Out Here
+            </h3>
+            <ul>
+                <li>What is going on here</li>
+                <li>Is this a list</li>
+                <li>Oh, it is</li>
+                <li>I'm still hungry :(</li>
             </ul>
-            <h3 style="color: aquamarine; font-family: Arial;">Here is some of my work.</h3>
-            <ul id="Work" style="color: skyblue; font-family: serif; font-size: 20px;">
-                <li>Fanart of D3rLord3 (Spelt the file wrong when I originally made it and never bothered to fix it) <img src=".\assets\D3eLord3.png"></img></li>
-                <li>Rock Slime Drawing <img src=".\assets\rock slime.png"></img></li>
-                <li>Mech Exosuit Drawing <img src=".\assets\Mech Exosuit.png"></img></li>
+        </p>
+        <!--Elements can have multiple attributes, but only 1 tag-->
+        <!--ELEMENTS are made up of tags (mandatory), attribute (optional), content (what is in the element)-->
+        <div style="background-color: black; color: white; font-family:'Trebuchet MS', 'Lucida Sans', Arial, sans-serif" "class="ships-scifi">
+            <p id="lorem-ipsum">
+                I'm kind of considering cooking some noodles right now
+            </p>
+
+            <h2>Ships That Are Cool</h2>
+            <ul>
+                <li id="rebels">X-Wings</li>
+                <li id="Empire">Tai-Fighters</li>
+                <li id="Republic">Destroyers</li>
             </ul>
-        </section>
+        </div>
     </body>
 </html>
